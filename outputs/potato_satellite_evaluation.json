@@ -1,0 +1,1260 @@
+{
+  "crop": "Potato",
+  "status": "historical research demonstration",
+  "place": "Wadi Al-Dawasir, Saudi Arabia",
+  "season": "2016",
+  "satellite": "Sentinel-2",
+  "feature": "February 11, 2016 NDVI at published sample locations",
+  "outcome": "Measured potato yield from harvested 3 m\u00b2 sample, scaled to t/ha",
+  "validation": "Leave one entire field out; train on the other two fields; same ridge penalty 1.0 in each fold; compare with training-field mean. Exploratory model choice needs independent confirmation.",
+  "sample_count": 135,
+  "field_count": 3,
+  "model_mae_t_ha": 5.823,
+  "baseline_mae_t_ha": 7.266,
+  "field_scores": [
+    {
+      "field": "67-S",
+      "train_samples": 90,
+      "held_out_samples": 45,
+      "model_mae_t_ha": 6.451,
+      "baseline_mae_t_ha": 9.618,
+      "model_beats_baseline": true
+    },
+    {
+      "field": "68-S",
+      "train_samples": 90,
+      "held_out_samples": 45,
+      "model_mae_t_ha": 4.999,
+      "baseline_mae_t_ha": 4.178,
+      "model_beats_baseline": false
+    },
+    {
+      "field": "44-S",
+      "train_samples": 90,
+      "held_out_samples": 45,
+      "model_mae_t_ha": 6.018,
+      "baseline_mae_t_ha": 8.0,
+      "model_beats_baseline": true
+    }
+  ],
+  "points": [
+    {
+      "field": "67-S",
+      "sample_id": "1",
+      "source_row": 4,
+      "sentinel_ndvi": 0.764937,
+      "measured_yield_t_ha": 42.0,
+      "predicted_yield_t_ha": 38.188,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "3",
+      "source_row": 5,
+      "sentinel_ndvi": 0.800995,
+      "measured_yield_t_ha": 41.169998,
+      "predicted_yield_t_ha": 39.306,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "2",
+      "source_row": 6,
+      "sentinel_ndvi": 0.858129,
+      "measured_yield_t_ha": 45.299999,
+      "predicted_yield_t_ha": 41.077,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "5",
+      "source_row": 7,
+      "sentinel_ndvi": 0.529047,
+      "measured_yield_t_ha": 9.199999,
+      "predicted_yield_t_ha": 30.876,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "6",
+      "source_row": 8,
+      "sentinel_ndvi": 0.311701,
+      "measured_yield_t_ha": 6.429999,
+      "predicted_yield_t_ha": 24.138,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "7",
+      "source_row": 9,
+      "sentinel_ndvi": 0.800867,
+      "measured_yield_t_ha": 43.2,
+      "predicted_yield_t_ha": 39.302,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "9",
+      "source_row": 10,
+      "sentinel_ndvi": 0.856104,
+      "measured_yield_t_ha": 42.569999,
+      "predicted_yield_t_ha": 41.014,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "28",
+      "source_row": 11,
+      "sentinel_ndvi": 0.695273,
+      "measured_yield_t_ha": 28.1,
+      "predicted_yield_t_ha": 36.028,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "29",
+      "source_row": 12,
+      "sentinel_ndvi": 0.8908,
+      "measured_yield_t_ha": 48.45,
+      "predicted_yield_t_ha": 42.089,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "30",
+      "source_row": 13,
+      "sentinel_ndvi": 0.882036,
+      "measured_yield_t_ha": 35.45,
+      "predicted_yield_t_ha": 41.818,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "10",
+      "source_row": 14,
+      "sentinel_ndvi": 0.34713,
+      "measured_yield_t_ha": 27.6,
+      "predicted_yield_t_ha": 25.236,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "11",
+      "source_row": 15,
+      "sentinel_ndvi": 0.346747,
+      "measured_yield_t_ha": 27.95,
+      "predicted_yield_t_ha": 25.225,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "12",
+      "source_row": 16,
+      "sentinel_ndvi": 0.212726,
+      "measured_yield_t_ha": 28.18,
+      "predicted_yield_t_ha": 21.07,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "22",
+      "source_row": 17,
+      "sentinel_ndvi": 0.794172,
+      "measured_yield_t_ha": 47.009998,
+      "predicted_yield_t_ha": 39.094,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "21",
+      "source_row": 18,
+      "sentinel_ndvi": 0.844949,
+      "measured_yield_t_ha": 38.970001,
+      "predicted_yield_t_ha": 40.668,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "19",
+      "source_row": 19,
+      "sentinel_ndvi": 0.886245,
+      "measured_yield_t_ha": 45.549999,
+      "predicted_yield_t_ha": 41.948,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "18",
+      "source_row": 20,
+      "sentinel_ndvi": 0.877092,
+      "measured_yield_t_ha": 47.389999,
+      "predicted_yield_t_ha": 41.665,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "17",
+      "source_row": 21,
+      "sentinel_ndvi": 0.891486,
+      "measured_yield_t_ha": 40.529998,
+      "predicted_yield_t_ha": 42.111,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "20",
+      "source_row": 22,
+      "sentinel_ndvi": 0.875812,
+      "measured_yield_t_ha": 42.880001,
+      "predicted_yield_t_ha": 41.625,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "23",
+      "source_row": 23,
+      "sentinel_ndvi": 0.765114,
+      "measured_yield_t_ha": 33.369998,
+      "predicted_yield_t_ha": 38.193,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "24",
+      "source_row": 24,
+      "sentinel_ndvi": 0.307692,
+      "measured_yield_t_ha": 21.319999,
+      "predicted_yield_t_ha": 24.014,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "16",
+      "source_row": 25,
+      "sentinel_ndvi": 0.737073,
+      "measured_yield_t_ha": 29.319999,
+      "predicted_yield_t_ha": 37.324,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "15",
+      "source_row": 26,
+      "sentinel_ndvi": 0.878589,
+      "measured_yield_t_ha": 34.299999,
+      "predicted_yield_t_ha": 41.711,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "14",
+      "source_row": 27,
+      "sentinel_ndvi": 0.868786,
+      "measured_yield_t_ha": 42.659999,
+      "predicted_yield_t_ha": 41.407,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "49",
+      "source_row": 28,
+      "sentinel_ndvi": 0.705629,
+      "measured_yield_t_ha": 37.139999,
+      "predicted_yield_t_ha": 36.349,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "51",
+      "source_row": 29,
+      "sentinel_ndvi": 0.839548,
+      "measured_yield_t_ha": 45.5,
+      "predicted_yield_t_ha": 40.501,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "54",
+      "source_row": 30,
+      "sentinel_ndvi": 0.83194,
+      "measured_yield_t_ha": 45.729999,
+      "predicted_yield_t_ha": 40.265,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "60",
+      "source_row": 31,
+      "sentinel_ndvi": 0.326567,
+      "measured_yield_t_ha": 24.629999,
+      "predicted_yield_t_ha": 24.599,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "46",
+      "source_row": 32,
+      "sentinel_ndvi": 0.770939,
+      "measured_yield_t_ha": 35.939998,
+      "predicted_yield_t_ha": 38.374,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "35",
+      "source_row": 33,
+      "sentinel_ndvi": 0.528345,
+      "measured_yield_t_ha": 0.0,
+      "predicted_yield_t_ha": 30.854,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "36",
+      "source_row": 34,
+      "sentinel_ndvi": 0.700994,
+      "measured_yield_t_ha": 44.95,
+      "predicted_yield_t_ha": 36.206,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "37",
+      "source_row": 35,
+      "sentinel_ndvi": 0.738738,
+      "measured_yield_t_ha": 43.139999,
+      "predicted_yield_t_ha": 37.376,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "38",
+      "source_row": 36,
+      "sentinel_ndvi": 0.820812,
+      "measured_yield_t_ha": 34.919998,
+      "predicted_yield_t_ha": 39.92,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "32",
+      "source_row": 37,
+      "sentinel_ndvi": 0.581442,
+      "measured_yield_t_ha": 19.889999,
+      "predicted_yield_t_ha": 32.5,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "33",
+      "source_row": 38,
+      "sentinel_ndvi": 0.817898,
+      "measured_yield_t_ha": 46.619998,
+      "predicted_yield_t_ha": 39.83,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "50",
+      "source_row": 39,
+      "sentinel_ndvi": 0.732205,
+      "measured_yield_t_ha": 38.79,
+      "predicted_yield_t_ha": 37.173,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "42",
+      "source_row": 40,
+      "sentinel_ndvi": 0.884698,
+      "measured_yield_t_ha": 45.580001,
+      "predicted_yield_t_ha": 41.9,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "45",
+      "source_row": 41,
+      "sentinel_ndvi": 0.790318,
+      "measured_yield_t_ha": 32.130001,
+      "predicted_yield_t_ha": 38.975,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "48",
+      "source_row": 42,
+      "sentinel_ndvi": 0.321605,
+      "measured_yield_t_ha": 27.239999,
+      "predicted_yield_t_ha": 24.445,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "59",
+      "source_row": 43,
+      "sentinel_ndvi": 0.383687,
+      "measured_yield_t_ha": 11.89,
+      "predicted_yield_t_ha": 26.37,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "53",
+      "source_row": 44,
+      "sentinel_ndvi": 0.690178,
+      "measured_yield_t_ha": 41.2,
+      "predicted_yield_t_ha": 35.87,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "43",
+      "source_row": 45,
+      "sentinel_ndvi": 0.375634,
+      "measured_yield_t_ha": 29.61,
+      "predicted_yield_t_ha": 26.12,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "39",
+      "source_row": 46,
+      "sentinel_ndvi": 0.864161,
+      "measured_yield_t_ha": 43.349998,
+      "predicted_yield_t_ha": 41.264,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "52",
+      "source_row": 47,
+      "sentinel_ndvi": 0.705867,
+      "measured_yield_t_ha": 29.42,
+      "predicted_yield_t_ha": 36.357,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "67-S",
+      "sample_id": "58",
+      "source_row": 48,
+      "sentinel_ndvi": 0.63404,
+      "measured_yield_t_ha": 8.13,
+      "predicted_yield_t_ha": 34.13,
+      "baseline_yield_t_ha": 39.594
+    },
+    {
+      "field": "68-S",
+      "sample_id": "30",
+      "source_row": 4,
+      "sentinel_ndvi": 0.872363,
+      "measured_yield_t_ha": 39.830001,
+      "predicted_yield_t_ha": 43.447,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "25",
+      "source_row": 5,
+      "sentinel_ndvi": 0.855458,
+      "measured_yield_t_ha": 43.562999,
+      "predicted_yield_t_ha": 42.711,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "28",
+      "source_row": 6,
+      "sentinel_ndvi": 0.8873,
+      "measured_yield_t_ha": 38.556999,
+      "predicted_yield_t_ha": 44.097,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "27",
+      "source_row": 7,
+      "sentinel_ndvi": 0.858782,
+      "measured_yield_t_ha": 27.79,
+      "predicted_yield_t_ha": 42.856,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "26",
+      "source_row": 8,
+      "sentinel_ndvi": 0.89062,
+      "measured_yield_t_ha": 41.132999,
+      "predicted_yield_t_ha": 44.241,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "10",
+      "source_row": 9,
+      "sentinel_ndvi": 0.883047,
+      "measured_yield_t_ha": 38.86,
+      "predicted_yield_t_ha": 43.912,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "9",
+      "source_row": 10,
+      "sentinel_ndvi": 0.883113,
+      "measured_yield_t_ha": 37.119998,
+      "predicted_yield_t_ha": 43.914,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "7",
+      "source_row": 11,
+      "sentinel_ndvi": 0.887119,
+      "measured_yield_t_ha": 39.733001,
+      "predicted_yield_t_ha": 44.089,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "13",
+      "source_row": 12,
+      "sentinel_ndvi": 0.829724,
+      "measured_yield_t_ha": 39.09,
+      "predicted_yield_t_ha": 41.592,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "6",
+      "source_row": 13,
+      "sentinel_ndvi": 0.832364,
+      "measured_yield_t_ha": 34.720001,
+      "predicted_yield_t_ha": 41.707,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "5",
+      "source_row": 14,
+      "sentinel_ndvi": 0.852791,
+      "measured_yield_t_ha": 45.34,
+      "predicted_yield_t_ha": 42.595,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "1",
+      "source_row": 15,
+      "sentinel_ndvi": 0.726596,
+      "measured_yield_t_ha": 42.166999,
+      "predicted_yield_t_ha": 37.106,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "15",
+      "source_row": 16,
+      "sentinel_ndvi": 0.839239,
+      "measured_yield_t_ha": 38.18,
+      "predicted_yield_t_ha": 42.006,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "21",
+      "source_row": 17,
+      "sentinel_ndvi": 0.686846,
+      "measured_yield_t_ha": 36.146999,
+      "predicted_yield_t_ha": 35.377,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "23",
+      "source_row": 18,
+      "sentinel_ndvi": 0.723753,
+      "measured_yield_t_ha": 29.966999,
+      "predicted_yield_t_ha": 36.982,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "20",
+      "source_row": 19,
+      "sentinel_ndvi": 0.698938,
+      "measured_yield_t_ha": 24.933,
+      "predicted_yield_t_ha": 35.903,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "17",
+      "source_row": 20,
+      "sentinel_ndvi": 0.53851,
+      "measured_yield_t_ha": 18.867,
+      "predicted_yield_t_ha": 28.924,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "18",
+      "source_row": 21,
+      "sentinel_ndvi": 0.729863,
+      "measured_yield_t_ha": 41.166999,
+      "predicted_yield_t_ha": 37.248,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "11",
+      "source_row": 22,
+      "sentinel_ndvi": 0.873453,
+      "measured_yield_t_ha": 34.367,
+      "predicted_yield_t_ha": 43.494,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "4",
+      "source_row": 23,
+      "sentinel_ndvi": 0.761904,
+      "measured_yield_t_ha": 43.853,
+      "predicted_yield_t_ha": 38.642,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "3",
+      "source_row": 24,
+      "sentinel_ndvi": 0.665791,
+      "measured_yield_t_ha": 33.437,
+      "predicted_yield_t_ha": 34.461,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "31",
+      "source_row": 25,
+      "sentinel_ndvi": 0.836368,
+      "measured_yield_t_ha": 40.876998,
+      "predicted_yield_t_ha": 41.881,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "32",
+      "source_row": 26,
+      "sentinel_ndvi": 0.834989,
+      "measured_yield_t_ha": 36.27,
+      "predicted_yield_t_ha": 41.821,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "36",
+      "source_row": 27,
+      "sentinel_ndvi": 0.861932,
+      "measured_yield_t_ha": 35.522998,
+      "predicted_yield_t_ha": 42.993,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "39",
+      "source_row": 28,
+      "sentinel_ndvi": 0.884687,
+      "measured_yield_t_ha": 41.79,
+      "predicted_yield_t_ha": 43.983,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "41",
+      "source_row": 29,
+      "sentinel_ndvi": 0.901095,
+      "measured_yield_t_ha": 42.146999,
+      "predicted_yield_t_ha": 44.697,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "60",
+      "source_row": 30,
+      "sentinel_ndvi": 0.871623,
+      "measured_yield_t_ha": 39.630001,
+      "predicted_yield_t_ha": 43.415,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "59",
+      "source_row": 31,
+      "sentinel_ndvi": 0.780569,
+      "measured_yield_t_ha": 32.297,
+      "predicted_yield_t_ha": 39.454,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "56",
+      "source_row": 32,
+      "sentinel_ndvi": 0.859261,
+      "measured_yield_t_ha": 41.466999,
+      "predicted_yield_t_ha": 42.877,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "44",
+      "source_row": 33,
+      "sentinel_ndvi": 0.851809,
+      "measured_yield_t_ha": 38.409999,
+      "predicted_yield_t_ha": 42.553,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "43",
+      "source_row": 34,
+      "sentinel_ndvi": 0.794188,
+      "measured_yield_t_ha": 36.117,
+      "predicted_yield_t_ha": 40.046,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "53",
+      "source_row": 35,
+      "sentinel_ndvi": 0.785889,
+      "measured_yield_t_ha": 26.927,
+      "predicted_yield_t_ha": 39.685,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "52",
+      "source_row": 36,
+      "sentinel_ndvi": 0.823903,
+      "measured_yield_t_ha": 37.696998,
+      "predicted_yield_t_ha": 41.339,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "51",
+      "source_row": 37,
+      "sentinel_ndvi": 0.774984,
+      "measured_yield_t_ha": 26.892999,
+      "predicted_yield_t_ha": 39.211,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "34",
+      "source_row": 38,
+      "sentinel_ndvi": 0.709428,
+      "measured_yield_t_ha": 36.092998,
+      "predicted_yield_t_ha": 36.359,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "48",
+      "source_row": 39,
+      "sentinel_ndvi": 0.789987,
+      "measured_yield_t_ha": 40.880001,
+      "predicted_yield_t_ha": 39.863,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "47",
+      "source_row": 40,
+      "sentinel_ndvi": 0.680672,
+      "measured_yield_t_ha": 37.466999,
+      "predicted_yield_t_ha": 35.108,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "35",
+      "source_row": 41,
+      "sentinel_ndvi": 0.838689,
+      "measured_yield_t_ha": 44.912998,
+      "predicted_yield_t_ha": 41.982,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "33",
+      "source_row": 42,
+      "sentinel_ndvi": 0.692708,
+      "measured_yield_t_ha": 33.349998,
+      "predicted_yield_t_ha": 35.632,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "37",
+      "source_row": 43,
+      "sentinel_ndvi": 0.835542,
+      "measured_yield_t_ha": 39.216999,
+      "predicted_yield_t_ha": 41.845,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "57",
+      "source_row": 44,
+      "sentinel_ndvi": 0.817684,
+      "measured_yield_t_ha": 31.79,
+      "predicted_yield_t_ha": 41.068,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "46",
+      "source_row": 45,
+      "sentinel_ndvi": 0.690087,
+      "measured_yield_t_ha": 39.139999,
+      "predicted_yield_t_ha": 35.518,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "58",
+      "source_row": 46,
+      "sentinel_ndvi": 0.818847,
+      "measured_yield_t_ha": 34.439998,
+      "predicted_yield_t_ha": 41.119,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "50",
+      "source_row": 47,
+      "sentinel_ndvi": 0.71585,
+      "measured_yield_t_ha": 36.193,
+      "predicted_yield_t_ha": 36.638,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "68-S",
+      "sample_id": "42",
+      "source_row": 48,
+      "sentinel_ndvi": 0.886239,
+      "measured_yield_t_ha": 32.092998,
+      "predicted_yield_t_ha": 44.05,
+      "baseline_yield_t_ha": 38.308
+    },
+    {
+      "field": "44-S",
+      "sample_id": "23",
+      "source_row": 4,
+      "sentinel_ndvi": 0.837851,
+      "measured_yield_t_ha": 44.193,
+      "predicted_yield_t_ha": 38.894,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "22",
+      "source_row": 5,
+      "sentinel_ndvi": 0.858242,
+      "measured_yield_t_ha": 48.59,
+      "predicted_yield_t_ha": 39.676,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "14",
+      "source_row": 6,
+      "sentinel_ndvi": 0.83975,
+      "measured_yield_t_ha": 45.356998,
+      "predicted_yield_t_ha": 38.967,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "2",
+      "source_row": 7,
+      "sentinel_ndvi": 0.854447,
+      "measured_yield_t_ha": 44.457,
+      "predicted_yield_t_ha": 39.53,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "5",
+      "source_row": 8,
+      "sentinel_ndvi": 0.751146,
+      "measured_yield_t_ha": 39.896999,
+      "predicted_yield_t_ha": 35.569,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "4",
+      "source_row": 9,
+      "sentinel_ndvi": 0.815086,
+      "measured_yield_t_ha": 47.576999,
+      "predicted_yield_t_ha": 38.021,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "6",
+      "source_row": 10,
+      "sentinel_ndvi": 0.79657,
+      "measured_yield_t_ha": 38.457,
+      "predicted_yield_t_ha": 37.311,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "11",
+      "source_row": 11,
+      "sentinel_ndvi": 0.833525,
+      "measured_yield_t_ha": 39.536998,
+      "predicted_yield_t_ha": 38.728,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "7",
+      "source_row": 12,
+      "sentinel_ndvi": 0.863068,
+      "measured_yield_t_ha": 45.533,
+      "predicted_yield_t_ha": 39.861,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "30",
+      "source_row": 13,
+      "sentinel_ndvi": 0.756673,
+      "measured_yield_t_ha": 27.6,
+      "predicted_yield_t_ha": 35.781,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "28",
+      "source_row": 14,
+      "sentinel_ndvi": 0.759015,
+      "measured_yield_t_ha": 40.819999,
+      "predicted_yield_t_ha": 35.871,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "27",
+      "source_row": 15,
+      "sentinel_ndvi": 0.837186,
+      "measured_yield_t_ha": 47.592998,
+      "predicted_yield_t_ha": 38.868,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "16",
+      "source_row": 16,
+      "sentinel_ndvi": 0.846027,
+      "measured_yield_t_ha": 44.033,
+      "predicted_yield_t_ha": 39.207,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "26",
+      "source_row": 17,
+      "sentinel_ndvi": 0.782346,
+      "measured_yield_t_ha": 30.899999,
+      "predicted_yield_t_ha": 36.766,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "12",
+      "source_row": 18,
+      "sentinel_ndvi": 0.728672,
+      "measured_yield_t_ha": 38.533,
+      "predicted_yield_t_ha": 34.708,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "29",
+      "source_row": 19,
+      "sentinel_ndvi": 0.853723,
+      "measured_yield_t_ha": 36.812999,
+      "predicted_yield_t_ha": 39.502,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "18",
+      "source_row": 20,
+      "sentinel_ndvi": 0.848313,
+      "measured_yield_t_ha": 35.959999,
+      "predicted_yield_t_ha": 39.295,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "17",
+      "source_row": 21,
+      "sentinel_ndvi": 0.849908,
+      "measured_yield_t_ha": 43.650001,
+      "predicted_yield_t_ha": 39.356,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "3",
+      "source_row": 22,
+      "sentinel_ndvi": 0.842385,
+      "measured_yield_t_ha": 43.227001,
+      "predicted_yield_t_ha": 39.068,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "9",
+      "source_row": 23,
+      "sentinel_ndvi": 0.83215,
+      "measured_yield_t_ha": 42.803001,
+      "predicted_yield_t_ha": 38.675,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "20",
+      "source_row": 24,
+      "sentinel_ndvi": 0.886595,
+      "measured_yield_t_ha": 49.743,
+      "predicted_yield_t_ha": 40.763,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "31",
+      "source_row": 25,
+      "sentinel_ndvi": 0.818181,
+      "measured_yield_t_ha": 38.233001,
+      "predicted_yield_t_ha": 38.14,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "33",
+      "source_row": 26,
+      "sentinel_ndvi": 0.861467,
+      "measured_yield_t_ha": 48.740001,
+      "predicted_yield_t_ha": 39.799,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "35",
+      "source_row": 27,
+      "sentinel_ndvi": 0.806376,
+      "measured_yield_t_ha": 41.299999,
+      "predicted_yield_t_ha": 37.687,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "36",
+      "source_row": 28,
+      "sentinel_ndvi": 0.760254,
+      "measured_yield_t_ha": 45.283,
+      "predicted_yield_t_ha": 35.919,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "37",
+      "source_row": 29,
+      "sentinel_ndvi": 0.674898,
+      "measured_yield_t_ha": 39.029998,
+      "predicted_yield_t_ha": 32.646,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "38",
+      "source_row": 30,
+      "sentinel_ndvi": 0.800942,
+      "measured_yield_t_ha": 34.2,
+      "predicted_yield_t_ha": 37.479,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "39",
+      "source_row": 31,
+      "sentinel_ndvi": 0.814901,
+      "measured_yield_t_ha": 40.053001,
+      "predicted_yield_t_ha": 38.014,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "40",
+      "source_row": 32,
+      "sentinel_ndvi": 0.804528,
+      "measured_yield_t_ha": 37.533,
+      "predicted_yield_t_ha": 37.616,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "41",
+      "source_row": 33,
+      "sentinel_ndvi": 0.802619,
+      "measured_yield_t_ha": 29.809999,
+      "predicted_yield_t_ha": 37.543,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "42",
+      "source_row": 34,
+      "sentinel_ndvi": 0.800593,
+      "measured_yield_t_ha": 34.666999,
+      "predicted_yield_t_ha": 37.465,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "43",
+      "source_row": 35,
+      "sentinel_ndvi": 0.879937,
+      "measured_yield_t_ha": 37.86,
+      "predicted_yield_t_ha": 40.507,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "44",
+      "source_row": 36,
+      "sentinel_ndvi": 0.861375,
+      "measured_yield_t_ha": 50.266998,
+      "predicted_yield_t_ha": 39.796,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "45",
+      "source_row": 37,
+      "sentinel_ndvi": 0.826725,
+      "measured_yield_t_ha": 38.159999,
+      "predicted_yield_t_ha": 38.467,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "46",
+      "source_row": 38,
+      "sentinel_ndvi": 0.834287,
+      "measured_yield_t_ha": 39.84,
+      "predicted_yield_t_ha": 38.757,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "48",
+      "source_row": 39,
+      "sentinel_ndvi": 0.862968,
+      "measured_yield_t_ha": 62.666999,
+      "predicted_yield_t_ha": 39.857,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "50",
+      "source_row": 40,
+      "sentinel_ndvi": 0.817821,
+      "measured_yield_t_ha": 42.387001,
+      "predicted_yield_t_ha": 38.126,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "52",
+      "source_row": 41,
+      "sentinel_ndvi": 0.859226,
+      "measured_yield_t_ha": 39.747001,
+      "predicted_yield_t_ha": 39.713,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "53",
+      "source_row": 42,
+      "sentinel_ndvi": 0.75414,
+      "measured_yield_t_ha": 35.966999,
+      "predicted_yield_t_ha": 35.684,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "54",
+      "source_row": 43,
+      "sentinel_ndvi": 0.8952,
+      "measured_yield_t_ha": 56.123001,
+      "predicted_yield_t_ha": 41.093,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "55",
+      "source_row": 44,
+      "sentinel_ndvi": 0.868961,
+      "measured_yield_t_ha": 42.279998,
+      "predicted_yield_t_ha": 40.087,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "56",
+      "source_row": 45,
+      "sentinel_ndvi": 0.863528,
+      "measured_yield_t_ha": 52.45,
+      "predicted_yield_t_ha": 39.878,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "57",
+      "source_row": 46,
+      "sentinel_ndvi": 0.527538,
+      "measured_yield_t_ha": 56.486999,
+      "predicted_yield_t_ha": 26.996,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "58",
+      "source_row": 47,
+      "sentinel_ndvi": 0.896477,
+      "measured_yield_t_ha": 52.952999,
+      "predicted_yield_t_ha": 41.142,
+      "baseline_yield_t_ha": 35.39
+    },
+    {
+      "field": "44-S",
+      "sample_id": "60",
+      "source_row": 48,
+      "sentinel_ndvi": 0.846243,
+      "measured_yield_t_ha": 41.7,
+      "predicted_yield_t_ha": 39.216,
+      "baseline_yield_t_ha": 35.39
+    }
+  ],
+  "source_url": "https://plos.figshare.com/articles/dataset/3818955",
+  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162219",
+  "scope_note": "Three nearby fields in one Saudi season are too little evidence for a reliable current forecast, Pakistan transfer, or supply/dispatch decision. One held-out field loses to the simple baseline. Model choices were explored on this dataset, so the measured advantage needs independent confirmation. The displayed points are 2016 held-out evaluations, not live predictions."
+}

@@ -1,0 +1,2 @@
+population_year,population,consumption_survey_year,onion_kg_per_person_per_month,monthly_household_reference_t,population_source_url,consumption_source_url,note
+2023,241499431,2024-25,0.85,205275,https://www.pbs.gov.pk/sites/default/files/population/2023/reports/National%20Census%20Report-2023.pdf,https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf,"Census population multiplied by HIES national household consumption rate; excludes commercial, institutional, export and loss demand. Population and survey years differ."

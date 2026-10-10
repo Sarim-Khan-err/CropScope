@@ -1,0 +1,525 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="keywords" content="Agriculture Commodity Daily Prices in Punjab Pakistan, Grains,Vegetables,Fruit Prices,rice,wheat,sugarcane,cotton,potato,tomato,ginger,garlic,groundnut,white grain, black grain,mash,moong, masoor puls,mango,apple,grapes,banana" />
+<meta name="copyright" content="www.amis.pk" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head id="ctl00_theHead"><link rel="stylesheet" href="../css/w3.css" type="text/css" /><link href="../css/StyleSheet.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../js/global.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66071340-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+     <script type="text/javascript">
+         function price_addelement() {
+
+             var eleprice = document.getElementById("Prices");
+
+
+             if (eleprice.style.display == "block") {
+                 eleprice.style.display = "none";
+
+             } else {
+                 if (document.getElementById("pub1").style.display == "block" || document.getElementById("stakeholder").style.display == "block" || document.getElementById("import").style.display == "block") {
+                     document.getElementById("pub1").style.display = "none";
+                     document.getElementById("stakeholder").style.display = "none";
+                     document.getElementById("import").style.display = "none";
+                     // document.getElementById("contacts").style.display = "none"
+                 }
+                 eleprice.style.display = "block";
+
+             }
+             //alert(myUL);
+         }
+
+         function pub() {
+
+
+
+             var i;
+             var ele = document.getElementById("pub1");
+
+
+             if (ele.style.display == "block") {
+                 ele.style.display = "none";
+             } else {
+                 if (document.getElementById("Prices").style.display == "block" || document.getElementById("stakeholder").style.display == "block" || document.getElementById("import").style.display == "block") {
+                     document.getElementById("Prices").style.display = "none";
+                     document.getElementById("stakeholder").style.display = "none";
+                     document.getElementById("import").style.display = "none";
+                     //   document.getElementById("contacts").style.display = "none"
+                 }
+
+                 ele.style.display = "block";
+             }
+
+
+
+         }
+
+         function stake() {
+
+
+
+
+             var stakeele = document.getElementById("stakeholder");
+
+
+             if (stakeele.style.display == "block") {
+                 stakeele.style.display = "none";
+             } else {
+
+                 if (document.getElementById("Prices").style.display == "block" || document.getElementById("pub1").style.display == "block" || document.getElementById("import").style.display == "block") {
+                     document.getElementById("Prices").style.display = "none";
+                     document.getElementById("pub1").style.display = "none";
+                     document.getElementById("import").style.display = "none";
+                     //document.getElementById("contacts").style.display = "none"
+                 }
+                 stakeele.style.display = "block";
+             }
+
+
+
+         }
+
+            function stat() {
+    
+    
+    
+    
+                var contactele = document.getElementById("stats");
+    
+    
+                if (contactele.style.display == "block") {
+                    contactele.style.display = "none";
+                } else {
+                
+                            if (document.getElementById("Prices").style.display == "block" || document.getElementById("pub1").style.display == "block" || document.getElementById("import").style.display == "block" || document.getElementById("stakeholder").style.display == "block") {
+                    document.getElementById("Prices").style.display = "none";
+                    document.getElementById("pub1").style.display = "none";
+                    document.getElementById("import").style.display = "none";
+                    document.getElementById("stakeholder").style.display = "none"
+                }
+                    contactele.style.display = "block";
+                }
+    
+    
+    
+            }
+         function importe() {
+
+
+
+
+             var contactele = document.getElementById("import");
+
+
+             if (contactele.style.display == "block") {
+                 contactele.style.display = "none";
+             } else {
+                 if (document.getElementById("Prices").style.display == "block" || document.getElementById("pub1").style.display == "block" ) {
+                     document.getElementById("Prices").style.display = "none";
+                     document.getElementById("pub1").style.display = "none";
+                     document.getElementById("contacts").style.display = "none";
+                     //document.getElementById("stakeholder").style.display = "none"
+                 }
+                 contactele.style.display = "block";
+             }
+
+
+
+         }
+        </script>
+     <style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 05px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 05px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.aside {
+  background-color: #33b5e5;
+  padding: 05px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 00px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 550px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 800px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+
+<title>
+	Untitled Page
+</title></head>
+<BODY id =home>
+
+<SCRIPT language=javascript 
+src="AJAX/CommunityBar.ashx" 
+type=text/javascript>
+</SCRIPT>
+
+
+
+<form method="post" action="./" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjgPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCZg9kFgICAw9kFgICEg9kFgRmD2QWAmYPDxYCHghJbWFnZVVybAUraHR0cDovL3d3dy5hbWlzLnBrL2ltYWdlcy9hbWlzLXVyZHUtbmV3LnBuZ2RkAgEPDxYCHwEFI2h0dHA6Ly93d3cuYW1pcy5way9pbWFnZXMvbmV3MzguZ2lmZGRke9kW2r03HsaGdmY0rGcu4mKGq9U=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DFDAB1A9" />
+</div>
+
+<DIV id=wrapper1>
+<DIV id=container style="text-align: left">
+   
+      <!-- BEGIN PAGE HEADER MODULE -->
+     
+    <div id="content-header-wrapper"><span class="site-breadcrumb" 
+id="ctl00_ctlSiteTabsTop_SiteMapPath1" ><span  ></span><span style="padding-left:15%"> <a href="../Default.aspx" style="padding-right:-20%">AMIS Home</a>
+&gt; </span><span></span><a 
+id="ctl00_ctlSiteTabsTop_SiteMapPath1_SkipLink"></a></span> 
+                      <div id="picklanguage" style =" margin-top:-13%">                  <p ><a id="ctl00_hyperlinkEnglish" class="language-poster-button-active" href="../default.aspx">English</a>  <a id="ctl00_hyperlinkUrdu" href="../Defaulturdu.aspx">اردو</a> </p>
+                          </div>
+         <div id="nav-utility1">
+<p>
+
+              
+                    <div style="text-align:right">    Not logged in |
+						<a id="ctl00_LoginView2_linkLogin" class="infoTextSmall" href="/login.aspx?ReturnUrl=%2fArrivalreports%2f"></a>
+                        |
+                        <a id="ctl00_LoginView2_linkRegister" class="infoTextSmall" href="/account/Register.aspx"></a>
+                    </div>
+					
+
+                                            
+                                            </p></div>
+        </div>
+    <img src="/images/Header.jpg" style="width:100%" />
+<DIV id=colcx1 style="text-align: left">
+    <div> <br/>
+        <br />
+        <br />
+    </div>
+
+  <div class="row">
+  <div class="col-3 col-s-3 menu"> 
+            <div class="sidebar">
+                <div class="sidebarheader">Services</div>
+                <div id="master_sidebarServices" class="sidebarcontent" style="text-align: left;padding-top:0;padding-bottom:0; padding-left:0" >
+                 
+
+
+                        <div id="navigation1">
+ <ul id="mainmanu" >
+
+ <li  onclick ="price_addelement()" id ="pricehead"><a href="javascript:void(0);">Auction/WholeSale Prices</a>
+ <ul class ="content1" id ="Prices">
+ <li>
+                     <a href= "http://www.amis.pk/DistrictCities.aspx">Prices By City</a>
+</li>
+     <li>
+                    
+                    <a href="http://www.amis.pk/BrowsePrices.aspx?searchType=0">Prices by Commodity</a>
+               </li>
+     <li>
+                    
+                    <a href= "http://www.amis.pk/Daily%20Market%20Changes.aspx">Daily Price Change</a>
+                   </li>
+     <li>
+                   
+                    <a href= "http://www.amis.pk/Reports/DistrictMC.aspx">Prices of 36 District Markets</a>
+                    </li>
+     <li>
+                    <a href="http://www.amis.pk/Reports/DistrictMajor.aspx">Prices of 10 Major Markets</a>
+                    
+         </li>
+         <li>
+                    
+                    <a href="http://www.amis.pk/DailyTrendAcrossPunjab.aspx">Commodity Price Trend across Punjab</a>
+                    </li>
+
+     <li>
+                   
+                    <a href= "http://www.amis.pk/Price%20Trends.aspx">Commodity Price Trend over Day</a>
+                    </li>
+     <li>
+                   
+                    <a href= "http://www.amis.pk/Prices.aspx?toptabid=1&tabid=0">Price Reports</a>
+                    </li>
+
+     <li>
+                   
+                    <a href= "http://www.amis.pk/HistoricalPrices.aspx">Historical Prices</a>
+                    </li>
+   
+ </ul>
+ </li>
+<li><a href="http://www.amis.pk/Arrivalreports">Arrival Quantity Reports</a></li>
+       <li><a href="http://www.amis.pk/Reports/districtretail.aspx">RetailPrices</a></li>
+<li onclick="stat()" ><a href="javascript:void(0);">Agri Statistics</a>
+   <ul  class ="content1" id ="stats"> 
+     <li><a href="http://www.amis.pk/Agristatistics/Statistics.aspx">Crop Wise Statistics</a></li>
+     <li><a href="http://www.amis.pk/Agristatistics/Condiments.aspx">Fruit & Vegetable Condiments</a></li>
+ </ul>
+         </li>
+      <li><a href="http://www.amis.pk/Agristatistics/DistrictWise/DistrictWiseData.aspx">District Wise Crop Data</a></li>
+      
+      <li>
+                             
+                    <a href="http://www.amis.pk/Reports/InternationCommodityPriceReports.aspx">International Commodity Prices</a>
+                    </li>
+  
+             
+     <li><a href="http://www.amis.pk/Crop%20Data/Select%20Year.aspx">World Crop Data</a></li>
+       
+     <li onclick="importe()" ><a href="javascript:void(0);">Import/Export</a>
+   <ul  class ="content1" id ="import"> 
+     <li><a href="/Import and Export of Agricultural Commodities/ImportAndExport.html">Import/Export of Agri Commodities</a></li>
+     <li><a href="http://www.amis.pk/FBS/PBS.aspx">Import and Export Statistics</a></li>
+ </ul>
+         </li>
+     <li><a href="http://www.amis.pk/Agristatistics/SupportPrice/Default.aspx">Support Price</a></li>
+ 
+<li ><a href="/PostHarvestPractise.aspx">Post Harvest Practices</a></li>
+<li ><a href="/PrefeasibilityStudies.aspx">Pre-Feasibility Studies</a></li>
+<li ><a href="/QualityStandards.aspx">Quality Standards</a></li>
+ <li ><a href="/pdf/CropPattern.pdf">Crop Harvest Calendar</a></li>
+     <li ><a href="http://www.amis.pk/FoodProcessing.aspx">Food Processing</a></li>
+<li ><a href="/Laws.aspx">Laws/Ordinance/Notifications</a></li>
+
+     
+     <li onclick="pub()"> <a href="javascript:void(0);">Publications</a>
+   <ul  class ="content1" id ="pub1"> 
+<li ><a href="http://www.amis.pk/Marketingroundupyearwise.aspx">Market Roundups</a></li>
+<li ><a href="http://www.amis.pk/Market%20Analysis.aspx">Supply and Price Analysis</a></li>
+<li ><a href="http://www.amis.pk/Publications.aspx">Research Reports</a></li>
+       <li ><a href="http://www.amis.pk/Trainingmanual.aspx">Training Manual</a></li>
+
+   </ul> 
+</li>
+      <li><a href="/FoodInFocus.aspx">Food In Focus</a></li> 
+     <li><a href="javascript:window.open('https://play.google.com/store/apps/details?id=pitb.gov.pk.amis','Android'); void(0);">Download Android Application</a></li>
+   <li><a href="/PAMRA.aspx">PAMRA</a></li> 
+       
+      <li ><a href="/Contacts.aspx">Departmental Contact</a>
+    
+</li>
+
+    
+   
+       <li ><a href="http://www.amis.pk/PDF/Markets in the Punjab.pdf">Fruit, Vagetable and Grain Markets</a></li> 
+    
+      <li onclick="stake()" ><a href="javascript:void(0);">StakeHolders Contact</a>
+   <ul  class ="content1" id ="stakeholder"> 
+<li ><a href="/ListOfStakeholders/list_of_traders_and_exporters.html">List of Exporters and Traders</a></li>
+<li ><a href="/AgriMarketingStakeholders/AgriMarketingStakeholders.aspx">List of AgriMarketing Stakeholders</a></li>
+<li ><a href="/AgroIndustries.aspx">Agro-Based Industries</a></li>
+   </ul> </li>
+    <li ><a href="/Aboutus.aspx">About Us</a></li>
+
+         
+ 
+    
+
+ </ul>
+ 
+ </div>  
+                </div>
+            </div>
+            
+            
+            
+            <div class="sidebar">
+                <div class="sidebarheader">Markets</div>
+                <div id="master_sidebarWalkthroughs" class="sidebarcontent" style="text-align: left;padding-top:0;padding-bottom:0; padding-left:0">
+             
+
+
+                    <div id="navigationdataentry1">
+ 
+  <ul>
+ <li>
+                     <a href= "/Markets/Dashboard.aspx" title="Data Entry MC DashBoard">Data Entry MC DashBoard</a></li>
+   
+   
+
+     
+
+
+<li>
+                     <a href= "/IntlCommodityPrices/CommodityPrices.aspx" title="Enter International market prices">Enter International Market Prices</a></li>
+     
+<li>
+                     <a href= "/Todays Unavailable Commodities.aspx" >Today's Unavailable Commodities</a></li>
+     <li>
+                     <a href= "/RateStatistics.aspx" >Daily Rate Upload Time</a></li>
+
+      
+
+     </ul>
+     </div>
+                </div>
+            </div>
+     
+      </div>
+<div class="col-9 col-s-9">
+<div class=colpadding >
+<div id=master_content>
+
+            <div id="master_contentplaceholder">
+<p class="style1"><strong>Arrival Reports of Agricultural Commodities</strong></p>
+<ol>
+<li class="style2"><a href="ArrivalDistrict.aspx"><span style="color: #16387c">District Wise Arrival Summery</span></a></li> 
+	<li class="style2"><span style="color: #5377a9; text-decoration: underline"><a href="ArrivalCitywisedetail.aspx">Detailed Arival (City Wise) </a></span></li>
+        
+       
+       <li class="style2"><a href="ArrivalLocation.aspx"><span style="color: #16387c">Arrival Sources</span></a></li> 
+        <li class="style2"><a href="ArrivalCitywise.aspx"><span style="color: #16387c">Customized Arrival Report </span></a></li>
+     <li class="style2"><a href="Arrival source target.aspx"><span style="color: #16387c">Daily Arrival with Source & Target Report </span></a></li>
+    <li class="style2"><a href="ArrivalDatewise.aspx"><span style="color: #16387c">Date wise Arrival </span></a></li>
+    <li class="style2"><a href="ArrivalDatewiseConsolidated.aspx"><span style="color: #16387c">Date wise Arrival Consolidated </span></a></li>
+        </ol>
+
+
+</div>
+      
+            </DIV> 
+                                 </DIV> 
+    </div>
+   
+ <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<DIV class=md id=footer>
+    <a id="ctl00_ModuleFooter_HyperLink1" href="../Default.aspx"><img id="ctl00_ModuleFooter_Image1" src="http://www.amis.pk/images/amis-urdu-new.png" longdesc="../Default.aspx" /><br />
+    </a>
+    <br />
+<UL id=overture>
+  <LI class=first><A 
+  href="/Advertise.aspx">Advertisements/Tenders </A>
+  
+      <img id="ctl00_ModuleFooter_imagefooter" src="http://www.amis.pk/images/new38.gif" />
+  <LI><A 
+  href="/Search.aspx">Search 
+  Marketing</A> 
+  
+  
+  <LI><A 
+  href="/Contactus.aspx">Contact Us</A>
+  </LI>
+  <LI><A 
+  href="https://play.google.com/store/apps/details?id=pitb.gov.pk.amis">Download Android Application <img src="../images/giphy.gif" style="height:2%;width:2%;" /> </A>
+  </LI>
+  </UL>
+<UL id=copyright>
+  <LI class=first>Copyright © 2006-2026 Agriculture Marketing Information Service(AMIS), Directorate of Agriculture (Economics & Marketing) Punjab, Lahore. All rights reserved.
+  
+  <A 
+  href="/Default.aspx">AMIS Home</A> 
+  
+  </UL>
+  like us<br/><div class="fb-like" data-href="https://www.facebook.com/Agriculture-Marketing-Information-Service-1681750532067935" data-width="50%" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+  
+
+
+</DIV>
+ 
+
+  
+
+                      
+    </DIV> </DIV>
+</DIV> 
+</DIV> 
+    </DIV>
+    </div>
+
+</form>
+
+</BODY></HTML>

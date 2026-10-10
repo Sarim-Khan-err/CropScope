@@ -1,0 +1,49 @@
+province,month,market_availability,source_url,source_pdf_page,note
+Punjab,1,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,2,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,3,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,4,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,5,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,6,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,7,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,8,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,9,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,10,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,11,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Punjab,12,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window March to July; not a monthly tonnage observation
+Sindh,1,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,2,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,3,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,4,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,5,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,6,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,7,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,8,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,9,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,10,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,11,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Sindh,12,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal windows June to July and November to April; not a monthly tonnage observation
+Khyber Pakhtunkhwa,1,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,2,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,3,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,4,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,5,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,6,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,7,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,8,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,9,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,10,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,11,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Khyber Pakhtunkhwa,12,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to September; not a monthly tonnage observation
+Balochistan,1,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,2,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,3,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,4,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,5,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,6,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,7,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,8,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,9,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,10,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,11,1,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation
+Balochistan,12,0,http://www.amis.pk/pdf/Supply%20and%20Price%20Situation%20Report%20May%202024.pdf,29,Official AMIS seasonal window June to November; not a monthly tonnage observation

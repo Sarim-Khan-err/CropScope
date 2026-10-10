@@ -1,0 +1,4 @@
+model,mae_t,wape_pct,backtest_count
+National ridge,195041,9.4,14
+Last season,165027,8.0,14
+Three-season mean,208036,10.1,14

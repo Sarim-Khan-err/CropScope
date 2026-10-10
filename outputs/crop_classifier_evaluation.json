@@ -1,0 +1,375 @@
+{
+  "status": "loaded",
+  "dataset": "Field-level Sentinel-2 time series for Pakistan crop classification (Ali et al. 2026)",
+  "source_url": "https://zenodo.org/records/22806700",
+  "code_url": "https://github.com/rms-ali247/conformal-crop-sits",
+  "ground_truth_source": "Asian Development Bank crop-type survey of Pakistan",
+  "license": "CC BY 4.0",
+  "field_count": 85618,
+  "district_count": 79,
+  "split_method": "Grouped by District (never by field); 20% of districts held out entirely for test, seed 42.",
+  "rabi_filter_note": "Rabi excludes ~118 off-season rarity fields (Cotton/Sorghum/Jantar/Rice, 1-14 samples each) per the dataset authors' own documented filter, matching their published methodology. Kharif is unfiltered.",
+  "model_method": "Multinomial (softmax) logistic regression on flattened 7-month x 28-channel Sentinel-2 feature tensor, class-balanced weights, trained by momentum gradient descent in numpy. No external ML framework.",
+  "seasons": {
+    "rabi": {
+      "season": "Rabi",
+      "n_districts_train": 50,
+      "n_districts_test": 13,
+      "test_districts": [
+        "Jaffarabad",
+        "Jamshoro",
+        "Jhang",
+        "Lasbela",
+        "Layyah",
+        "Lower Dir",
+        "Mardan",
+        "Multan",
+        "Nasirabad",
+        "Shikarpur",
+        "Tando Mohammad Khan",
+        "Upper Dir",
+        "Vehari"
+      ],
+      "n_fields_train": 19164,
+      "n_fields_test": 7146,
+      "crop_classes": [
+        "Barseem",
+        "Maize",
+        "Rapeseed Mustard",
+        "Sugarcane",
+        "Wheat"
+      ],
+      "model": {
+        "macro_f1": 0.7497,
+        "accuracy": 0.8983,
+        "per_crop": [
+          {
+            "crop": "Barseem",
+            "support": 226,
+            "precision": 0.429,
+            "recall": 0.916,
+            "f1": 0.585
+          },
+          {
+            "crop": "Maize",
+            "support": 438,
+            "precision": 0.927,
+            "recall": 0.925,
+            "f1": 0.926
+          },
+          {
+            "crop": "Rapeseed Mustard",
+            "support": 421,
+            "precision": 0.571,
+            "recall": 0.867,
+            "f1": 0.689
+          },
+          {
+            "crop": "Sugarcane",
+            "support": 114,
+            "precision": 0.512,
+            "recall": 0.746,
+            "f1": 0.607
+          },
+          {
+            "crop": "Wheat",
+            "support": 5947,
+            "precision": 0.988,
+            "recall": 0.901,
+            "f1": 0.942
+          }
+        ]
+      },
+      "majority_baseline": {
+        "predicted_crop": "Wheat",
+        "macro_f1": 0.1817,
+        "accuracy": 0.8322,
+        "per_crop": [
+          {
+            "crop": "Barseem",
+            "support": 226,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Maize",
+            "support": 438,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Rapeseed Mustard",
+            "support": 421,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Sugarcane",
+            "support": 114,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Wheat",
+            "support": 5947,
+            "precision": 0.832,
+            "recall": 1.0,
+            "f1": 0.908
+          }
+        ]
+      },
+      "macro_f1_improvement": 0.568,
+      "confusion_matrix": {
+        "Barseem": {
+          "Barseem": 207,
+          "Maize": 0,
+          "Rapeseed Mustard": 9,
+          "Sugarcane": 1,
+          "Wheat": 9
+        },
+        "Maize": {
+          "Barseem": 12,
+          "Maize": 405,
+          "Rapeseed Mustard": 5,
+          "Sugarcane": 7,
+          "Wheat": 9
+        },
+        "Rapeseed Mustard": {
+          "Barseem": 15,
+          "Maize": 2,
+          "Rapeseed Mustard": 365,
+          "Sugarcane": 8,
+          "Wheat": 31
+        },
+        "Sugarcane": {
+          "Barseem": 1,
+          "Maize": 8,
+          "Rapeseed Mustard": 4,
+          "Sugarcane": 85,
+          "Wheat": 16
+        },
+        "Wheat": {
+          "Barseem": 247,
+          "Maize": 22,
+          "Rapeseed Mustard": 256,
+          "Sugarcane": 65,
+          "Wheat": 5357
+        }
+      }
+    },
+    "kharif": {
+      "season": "Kharif",
+      "n_districts_train": 58,
+      "n_districts_test": 14,
+      "test_districts": [
+        "Bahawalpur",
+        "Chakwal",
+        "Hafizabad",
+        "Jacobabad",
+        "Jhal Magsi",
+        "Larkana",
+        "Lodhran",
+        "Mansehra",
+        "Muzaffargarh",
+        "Nankana Sahib",
+        "Nowshera",
+        "Pakpattan",
+        "Peshawar",
+        "Sahiwal"
+      ],
+      "n_fields_train": 48785,
+      "n_fields_test": 10405,
+      "crop_classes": [
+        "Cotton",
+        "Jantar",
+        "Maize",
+        "Rice",
+        "Sesame (Til)",
+        "Sorghum",
+        "Sugarcane"
+      ],
+      "model": {
+        "macro_f1": 0.6665,
+        "accuracy": 0.8775,
+        "per_crop": [
+          {
+            "crop": "Cotton",
+            "support": 1151,
+            "precision": 0.9,
+            "recall": 0.877,
+            "f1": 0.888
+          },
+          {
+            "crop": "Jantar",
+            "support": 49,
+            "precision": 0.244,
+            "recall": 0.633,
+            "f1": 0.352
+          },
+          {
+            "crop": "Maize",
+            "support": 1282,
+            "precision": 0.81,
+            "recall": 0.79,
+            "f1": 0.8
+          },
+          {
+            "crop": "Rice",
+            "support": 6795,
+            "precision": 0.995,
+            "recall": 0.908,
+            "f1": 0.95
+          },
+          {
+            "crop": "Sesame (Til)",
+            "support": 203,
+            "precision": 0.275,
+            "recall": 0.498,
+            "f1": 0.354
+          },
+          {
+            "crop": "Sorghum",
+            "support": 245,
+            "precision": 0.333,
+            "recall": 0.796,
+            "f1": 0.47
+          },
+          {
+            "crop": "Sugarcane",
+            "support": 680,
+            "precision": 0.811,
+            "recall": 0.896,
+            "f1": 0.851
+          }
+        ]
+      },
+      "majority_baseline": {
+        "predicted_crop": "Rice",
+        "macro_f1": 0.1129,
+        "accuracy": 0.6531,
+        "per_crop": [
+          {
+            "crop": "Cotton",
+            "support": 1151,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Jantar",
+            "support": 49,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Maize",
+            "support": 1282,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Rice",
+            "support": 6795,
+            "precision": 0.653,
+            "recall": 1.0,
+            "f1": 0.79
+          },
+          {
+            "crop": "Sesame (Til)",
+            "support": 203,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Sorghum",
+            "support": 245,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "crop": "Sugarcane",
+            "support": 680,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        ]
+      },
+      "macro_f1_improvement": 0.5536,
+      "confusion_matrix": {
+        "Cotton": {
+          "Cotton": 1009,
+          "Jantar": 35,
+          "Maize": 29,
+          "Rice": 4,
+          "Sesame (Til)": 43,
+          "Sorghum": 19,
+          "Sugarcane": 12
+        },
+        "Jantar": {
+          "Cotton": 5,
+          "Jantar": 31,
+          "Maize": 1,
+          "Rice": 1,
+          "Sesame (Til)": 6,
+          "Sorghum": 5,
+          "Sugarcane": 0
+        },
+        "Maize": {
+          "Cotton": 21,
+          "Jantar": 11,
+          "Maize": 1013,
+          "Rice": 11,
+          "Sesame (Til)": 50,
+          "Sorghum": 151,
+          "Sugarcane": 25
+        },
+        "Rice": {
+          "Cotton": 54,
+          "Jantar": 32,
+          "Maize": 170,
+          "Rice": 6172,
+          "Sesame (Til)": 144,
+          "Sorghum": 124,
+          "Sugarcane": 99
+        },
+        "Sesame (Til)": {
+          "Cotton": 16,
+          "Jantar": 14,
+          "Maize": 1,
+          "Rice": 1,
+          "Sesame (Til)": 101,
+          "Sorghum": 70,
+          "Sugarcane": 0
+        },
+        "Sorghum": {
+          "Cotton": 3,
+          "Jantar": 2,
+          "Maize": 20,
+          "Rice": 3,
+          "Sesame (Til)": 16,
+          "Sorghum": 195,
+          "Sugarcane": 6
+        },
+        "Sugarcane": {
+          "Cotton": 13,
+          "Jantar": 2,
+          "Maize": 17,
+          "Rice": 11,
+          "Sesame (Til)": 7,
+          "Sorghum": 21,
+          "Sugarcane": 609
+        }
+      }
+    }
+  },
+  "note": "Real ground-truth labels (ADB survey), real Sentinel-2-derived features, a genuine multi-class classifier, and a spatial (district-held-out) evaluation against a majority-class baseline using macro-F1. This is Pakistani agriculture, but field crops (wheat, rice, cotton, sugarcane, etc.), not onions -- no onion labels exist in this dataset. Not used anywhere in the onion Monitor."
+}

@@ -1,0 +1,34 @@
+direction,country,qty_kg_fy2024_25,value_pkr_thousands_fy2024_25,qty_kg_june2025,value_pkr_thousands_june2025,source_url,retrieved_date
+import,ALL COUNTRIES,371171160,16898558.639,27500,1274.941,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Import-0625-1.xlsx,2026-10-10
+import,Afghanistan,357068931,16217954.499,27500,1274.941,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Import-0625-1.xlsx,2026-10-10
+import,Albania,203017,9214.761,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Import-0625-1.xlsx,2026-10-10
+import,China,222333,10227.591,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Import-0625-1.xlsx,2026-10-10
+import,Iran ( Islamic R.),13335793,644525.594,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Import-0625-1.xlsx,2026-10-10
+import,U.S.America,141487,6437.752,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Import-0625-1.xlsx,2026-10-10
+import,Uzbekistan,199599,10198.442,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Import-0625-1.xlsx,2026-10-10
+export,ALL COUNTRIES,265372755,26464339.341,22826109,1178872.127,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Afghanistan,40419,4041.9,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Albania,732,311.277,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Bahrain,2870201,274866.667,261901,14411.635,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Bangladesh,7163366,929149.843,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Brunei Darussalam,419767,57684.855,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Canada,1440,252.519,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Georgia,22,71.405,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Iraq,348000,37324.856,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Kuwait,3141318,297555.081,29335,2150.461,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Malaysia,101528546,9956420.728,11864881,587392.522,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Maldives,253454,37475.686,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Mauritius,23790,16443.441,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Oman,6930601,661621.068,370500,17210.022,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Qatar,15407493,1496862.985,826014,46304.662,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Reunion,83982,9515.846,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Saudi Arabia,17100,7739.639,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Seychelles,292760,33727.018,88060,4183.605,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Singapore,8804408,933203.095,515285,26561.158,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Somalia,342200,18251.681,198200,10040.623,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Sri Lanka,69463643,6889531.213,6123927,328298.046,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Timor Leste,29990,4142.196,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,U.S.America,42215,14190.241,0,0.0,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,United Arab Emirates,47263968,4692191.778,2495006,136754.374,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,United Kingdom,24000,4208.232,24000,4208.232,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10
+export,Viet Nam,879340,87556.091,29000,1356.787,https://www.pbs.gov.pk/wp-content/uploads/2020/07/D-10_Export-0625.xlsx,2026-10-10

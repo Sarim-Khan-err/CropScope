@@ -1,0 +1,58 @@
+{
+  "Jamshoro, Sindh, Pakistan": {
+    "lat": 25.4297172,
+    "lon": 68.2817288,
+    "osm_type": "node",
+    "osm_id": 4888600623,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Jamshoro%2C+Sindh%2C+Pakistan&format=json&limit=1"
+  },
+  "Karachi, Sindh, Pakistan": {
+    "lat": 24.8546842,
+    "lon": 67.0207055,
+    "osm_type": "relation",
+    "osm_id": 6080948,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Karachi%2C+Sindh%2C+Pakistan&format=json&limit=1"
+  },
+  "Khuzdar, Balochistan, Pakistan": {
+    "lat": 27.8000135,
+    "lon": 66.6166537,
+    "osm_type": "node",
+    "osm_id": 271909244,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Khuzdar%2C+Balochistan%2C+Pakistan&format=json&limit=1"
+  },
+  "Lahore, Punjab, Pakistan": {
+    "lat": 31.5656822,
+    "lon": 74.3141829,
+    "osm_type": "node",
+    "osm_id": 1886594378,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Lahore%2C+Punjab%2C+Pakistan&format=json&limit=1"
+  },
+  "Mingora, Swat, Pakistan": {
+    "lat": 34.7725375,
+    "lon": 72.3607712,
+    "osm_type": "node",
+    "osm_id": 4832577118,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Mingora%2C+Swat%2C+Pakistan&format=json&limit=1"
+  },
+  "Multan, Punjab, Pakistan": {
+    "lat": 30.197838,
+    "lon": 71.4719683,
+    "osm_type": "node",
+    "osm_id": 307617596,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Multan%2C+Punjab%2C+Pakistan&format=json&limit=1"
+  },
+  "Peshawar, Khyber Pakhtunkhwa, Pakistan": {
+    "lat": 34.0123846,
+    "lon": 71.5787458,
+    "osm_type": "relation",
+    "osm_id": 16487008,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Peshawar%2C+Khyber+Pakhtunkhwa%2C+Pakistan&format=json&limit=1"
+  },
+  "Quetta, Balochistan, Pakistan": {
+    "lat": 30.1916268,
+    "lon": 67.0007561,
+    "osm_type": "node",
+    "osm_id": 2669085020,
+    "query_url": "https://nominatim.openstreetmap.org/search?q=Quetta%2C+Balochistan%2C+Pakistan&format=json&limit=1"
+  }
+}

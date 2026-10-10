@@ -1,0 +1,6 @@
+task,model,mae,n
+District yield (t/ha),Last season,1.116,44
+District yield (t/ha),3-season mean,1.259,44
+District yield (t/ha),Pooled ridge (district FE),1.286,44
+Weekly city price (Rs/kg),Last week,10.57,493
+Weekly city price (Rs/kg),Pooled ridge (city FE),11.55,493
